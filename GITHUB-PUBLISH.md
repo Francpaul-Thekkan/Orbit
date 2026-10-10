@@ -64,8 +64,8 @@ After uploading source, open Releases and create a release. See [GitHub's releas
 | Target | `main`, at the commit containing this beta |
 | Release title | `Orbit Beta v1` |
 | Description | Copy all of `RELEASE-DESCRIPTION.txt` (plain text, no Markdown headings) |
-| Set as a pre-release | Checked |
-| Set as latest stable release | Leave unchecked if offered |
+| Set as a pre-release | Unchecked, so GitHub displays the release in the repository sidebar |
+| Set as latest release | Checked |
 | Discussion | Optional; leave off unless Discussions is enabled |
 
 The three app downloads are together in `releases/v1.0.0-beta/`. Attach only these files:
@@ -77,6 +77,8 @@ Orbit-v1.0.0-beta-android-debug.apk
 ```
 
 Save a draft to review the text and attachments, then publish when ready. EXE/APK files belong in release attachments, not the Git source tree. Do not attach older internal builds.
+
+The title and tag still identify this as **Beta v1**. GitHub labels it **Latest** to show it on the repository page; the beta limitations in the release notes still apply.
 
 ## Optional website and Google login
 
