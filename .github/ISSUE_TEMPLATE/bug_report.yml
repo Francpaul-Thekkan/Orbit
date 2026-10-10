@@ -1,0 +1,55 @@
+name: Bug report
+description: Report a reproducible Orbit problem
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: Do not upload real backups, account emails, tokens, or private notes. Use synthetic examples.
+  - type: input
+    id: version
+    attributes:
+      label: Orbit version
+      placeholder: Beta v1 (1.0.0-beta)
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows installer
+        - Windows portable
+        - Android APK
+        - Browser or installed PWA
+        - macOS source build
+        - iOS source build
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS and browser version
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include whether you were online or offline.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or error details
+      description: Remove personal data before attaching anything.

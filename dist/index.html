@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+ <meta name="theme-color" content="#101114"><meta name="description" content="Your AI accounts, usage limits, resets and subscriptions. Organized, offline.">
+ <meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+ <title>Orbit</title><link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="./icon-192.png"><link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./styles.css">
+ <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://accounts.google.com/gsi/client; style-src 'self' 'unsafe-inline' https://accounts.google.com/gsi/style; img-src 'self' data:; connect-src 'self' https://www.googleapis.com https://accounts.google.com/gsi/; frame-src https://accounts.google.com/gsi/; object-src 'none'; base-uri 'self'; form-action 'self'">
+</head>
+<body>
+ <div id="app"></div>
+ <dialog id="modal" aria-label="Account editor"></dialog>
+ <dialog id="setup-dialog" aria-labelledby="setup-title"></dialog>
+ <div id="toast" role="status" aria-live="polite"></div>
+ <input type="file" id="import-file" accept="application/json,.json" hidden>
+ <script type="module" src="./app.js"></script>
+</body>
+</html>
