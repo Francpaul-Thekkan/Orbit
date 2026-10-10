@@ -2,6 +2,8 @@
 
 **Beta v1 · `1.0.0-beta` · Offline-first**
 
+**[Download Orbit Beta v1](https://github.com/Francpaul-Thekkan/Orbit/releases/tag/v1.0.0-beta)** · Windows x64 installer or portable app · Android testing APK
+
 ![Orbit first-launch setup](docs/images/startup.png)
 
 An offline-first workspace for Claude, ChatGPT, Codex, Gemini, and custom accounts. Start with [START-HERE.md](START-HERE.md), or follow the startup guide built into the app.
